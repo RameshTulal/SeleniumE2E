@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10940" started-at="2020-10-21T19:32:07Z" finished-at="2020-10-21T19:32:18Z">
+  <suite name="Default suite" duration-ms="14227" started-at="2020-10-22T11:12:30Z" finished-at="2020-10-22T11:12:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10940" started-at="2020-10-21T19:32:07Z" finished-at="2020-10-21T19:32:18Z">
-      <class name="tests.InputBoxTest">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:tests.InputBoxTest@3c0ecd4b]" name="setUpTest" is-config="true" duration-ms="8911" started-at="2020-10-21T19:32:07Z" finished-at="2020-10-21T19:32:16Z">
+    <test name="Default test" duration-ms="14227" started-at="2020-10-22T11:12:30Z" finished-at="2020-10-22T11:12:45Z">
+      <class name="tests.RadioCheckBoxTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:tests.RadioCheckBoxTest@3c0ecd4b]" name="setUpTest" is-config="true" duration-ms="12341" started-at="2020-10-22T11:12:30Z" finished-at="2020-10-22T11:12:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="runTest()[pri:0, instance:tests.InputBoxTest@3c0ecd4b]" name="runTest" duration-ms="1862" started-at="2020-10-21T19:32:16Z" finished-at="2020-10-21T19:32:18Z">
+        <test-method status="PASS" signature="runTest()[pri:0, instance:tests.RadioCheckBoxTest@3c0ecd4b]" name="runTest" duration-ms="1761" started-at="2020-10-22T11:12:43Z" finished-at="2020-10-22T11:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTest -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:tests.InputBoxTest@3c0ecd4b]" name="tearDownTest" is-config="true" duration-ms="129" started-at="2020-10-21T19:32:18Z" finished-at="2020-10-21T19:32:18Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:tests.RadioCheckBoxTest@3c0ecd4b]" name="tearDownTest" is-config="true" duration-ms="104" started-at="2020-10-22T11:12:45Z" finished-at="2020-10-22T11:12:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-      </class> <!-- tests.InputBoxTest -->
+      </class> <!-- tests.RadioCheckBoxTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

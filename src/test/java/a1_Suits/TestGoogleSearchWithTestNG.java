@@ -1,4 +1,4 @@
-package withTestNG;
+package a1_Suits;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
