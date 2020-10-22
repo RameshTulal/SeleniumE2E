@@ -16,14 +16,12 @@ public class B_DashBoardE2E_Test {
 
 	@BeforeTest
 	public void TestStartup() {			
-		System.out.println("setup Started...");	
 		System.out.println("setup is up and ready...");	
 		System.out.println("Test execution Started...");
 	}
 	
 	@BeforeMethod
 	public void Setup() {			
-		System.out.println("Browser is ready...");	
 		System.out.println("Application Launched..");	
 	}
 
@@ -41,10 +39,10 @@ public class B_DashBoardE2E_Test {
 	
 
 	@AfterMethod
-	public void tearDown() {			
-		System.out.println("Application Closed..");
-		System.out.println("Browser Closed...");	
+	public void tearDown() {
+		System.out.println("Application Closed..");		
 	}
+	
 	@AfterTest
 	public void TestEnd() throws InterruptedException {
 		System.out.println("Test execution Finished...");

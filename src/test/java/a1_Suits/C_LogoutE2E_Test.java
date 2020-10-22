@@ -15,8 +15,7 @@ public class C_LogoutE2E_Test {
 	public static String BrowserName = null;
 	
 	@BeforeMethod
-	public void setUp() {
-		System.out.println("Browser is ready...");			
+	public void setUp() {	
 		String ProjectPath = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver",ProjectPath+"/ChromeDriver/85/chromedriver.exe");		
 		driver = new ChromeDriver();	
@@ -40,11 +39,7 @@ public class C_LogoutE2E_Test {
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
-		System.out.println("Application Closed..");
-		System.out.println("Browser Closed...");		
+		System.out.println("Application Closed..");		
 	}
-	
-	
-
 	
 }

@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="withTestNG.TestLoginE2E">
+      <class name="a1_Suits.B_DashBoardE2E_Test">
         <methods>
-          <include name="GoogleSearchTest21"/>
+          <include name="Setup"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="TestEnd"/>
+          <include name="TestStartup"/>
+          <include name="verfyDashBoardDisplayed"/>
         </methods>
-      </class> <!-- withTestNG.TestLoginE2E -->
+      </class> <!-- a1_Suits.B_DashBoardE2E_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
