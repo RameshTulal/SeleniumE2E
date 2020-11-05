@@ -24,13 +24,13 @@ public class C_LogoutE2E_Test {
 		System.out.println("@BeforeMethod: Application Launched..");	
 	}	
 
-	@Test
+	@Test(priority=0)
 	public void verfyLogoutPageDisplayed() throws Exception {	
 		Assert.assertEquals("test", "test","Logout page not found..!");	
 		System.out.println("Test verfyLogoutPageDisplayed is executed...");
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void verfyLogoutButton() throws Exception {
 		Assert.assertEquals("test", "test","Logout button not found..!");	
 		System.out.println("Test verfyLogoutButton is executed...");
