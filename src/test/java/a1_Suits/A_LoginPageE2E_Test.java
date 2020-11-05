@@ -19,7 +19,7 @@ public class A_LoginPageE2E_Test {
 		driver = new ChromeDriver();	
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		driver.get("https:/www.google.co.in");
-		System.out.println("Application Launched..");
+		System.out.println("@BeforeMethod: Application Launched..");
 	}	
 	
 	@Test
@@ -53,7 +53,7 @@ public class A_LoginPageE2E_Test {
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
-		System.out.println("Application Closed..");		
+		System.out.println("@AfterMethod: Application Closed..");		
 	}
 	
 			
