@@ -24,13 +24,13 @@ public class B_DashBoardE2E_Test {
 		System.out.println("@BeforeMethod: Application Launched..");	
 	}
 
-	@Test
+	@Test(dependsOnGroups = { "Login" })
 	public void verfyDashBoardDisplayed() throws Exception {		
 		Assert.assertEquals("test", "test","DashBoard not found..!");	
 		System.out.println("verfyDashBoardDisplayed is executed...");
 	}
 	
-	@Test
+	@Test(dependsOnGroups = { "Login" })
 	public void verfyDashBoard() throws Exception {
 		Assert.assertEquals("test", "test","DashBoard not working properly...!");	
 		System.out.println("test verfyDashBoard is executed...");

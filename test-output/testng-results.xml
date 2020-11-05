@@ -1,37 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21264" started-at="2020-11-05T10:59:18Z" finished-at="2020-11-05T10:59:40Z">
+  <suite name="Default suite" duration-ms="58211" started-at="2020-11-05T18:01:37Z" finished-at="2020-11-05T18:02:35Z">
     <groups>
+      <group name="Login">
+        <method signature="A_LoginPageE2E_Test.verfyLoginPageDisplayed()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyLoginPageDisplayed" class="a1_Suits.A_LoginPageE2E_Test"/>
+        <method signature="A_LoginPageE2E_Test.verfyLoginButton()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyLoginButton" class="a1_Suits.A_LoginPageE2E_Test"/>
+        <method signature="A_LoginPageE2E_Test.verfyPasswordTextBox()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyPasswordTextBox" class="a1_Suits.A_LoginPageE2E_Test"/>
+        <method signature="A_LoginPageE2E_Test.verfyUserNameTextBox()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyUserNameTextBox" class="a1_Suits.A_LoginPageE2E_Test"/>
+      </group> <!-- Login -->
     </groups>
-    <test name="Default test" duration-ms="21264" started-at="2020-11-05T10:59:18Z" finished-at="2020-11-05T10:59:40Z">
-      <class name="a1_Suits.C_LogoutE2E_Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:a1_Suits.C_LogoutE2E_Test@4cf777e8]" name="setUp" is-config="true" duration-ms="6455" started-at="2020-11-05T10:59:19Z" finished-at="2020-11-05T10:59:25Z">
+    <test name="Default test" duration-ms="58211" started-at="2020-11-05T18:01:37Z" finished-at="2020-11-05T18:02:35Z">
+      <class name="a1_Suits.A_LoginPageE2E_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="setUp" is-config="true" duration-ms="7214" started-at="2020-11-05T18:01:37Z" finished-at="2020-11-05T18:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verfyLogoutPageDisplayed()[pri:0, instance:a1_Suits.C_LogoutE2E_Test@4cf777e8]" name="verfyLogoutPageDisplayed" duration-ms="9" started-at="2020-11-05T10:59:25Z" finished-at="2020-11-05T10:59:25Z">
+        <test-method status="PASS" signature="verfyLoginPageDisplayed()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyLoginPageDisplayed" duration-ms="2156" started-at="2020-11-05T18:01:44Z" finished-at="2020-11-05T18:01:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verfyLogoutPageDisplayed -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.C_LogoutE2E_Test@4cf777e8]" name="tearDown" is-config="true" duration-ms="4352" started-at="2020-11-05T10:59:25Z" finished-at="2020-11-05T10:59:29Z">
+        </test-method> <!-- verfyLoginPageDisplayed -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="tearDown" is-config="true" duration-ms="4348" started-at="2020-11-05T18:01:46Z" finished-at="2020-11-05T18:01:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:a1_Suits.C_LogoutE2E_Test@4cf777e8]" name="setUp" is-config="true" duration-ms="6059" started-at="2020-11-05T10:59:29Z" finished-at="2020-11-05T10:59:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="setUp" is-config="true" duration-ms="12387" started-at="2020-11-05T18:01:50Z" finished-at="2020-11-05T18:02:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verfyLogoutButton()[pri:1, instance:a1_Suits.C_LogoutE2E_Test@4cf777e8]" name="verfyLogoutButton" duration-ms="3" started-at="2020-11-05T10:59:35Z" finished-at="2020-11-05T10:59:35Z">
+        <test-method status="PASS" signature="verfyLoginButton()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyLoginButton" duration-ms="2129" started-at="2020-11-05T18:02:03Z" depends-on-methods="a1_Suits.A_LoginPageE2E_Test.verfyLoginPageDisplayed" finished-at="2020-11-05T18:02:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verfyLogoutButton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.C_LogoutE2E_Test@4cf777e8]" name="tearDown" is-config="true" duration-ms="4328" started-at="2020-11-05T10:59:35Z" finished-at="2020-11-05T10:59:40Z">
+        </test-method> <!-- verfyLoginButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="tearDown" is-config="true" duration-ms="4356" started-at="2020-11-05T18:02:05Z" finished-at="2020-11-05T18:02:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- a1_Suits.C_LogoutE2E_Test -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="setUp" is-config="true" duration-ms="5819" started-at="2020-11-05T18:02:09Z" finished-at="2020-11-05T18:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verfyPasswordTextBox()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyPasswordTextBox" duration-ms="2125" started-at="2020-11-05T18:02:15Z" depends-on-methods="a1_Suits.A_LoginPageE2E_Test.verfyLoginPageDisplayed" finished-at="2020-11-05T18:02:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyPasswordTextBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="tearDown" is-config="true" duration-ms="4344" started-at="2020-11-05T18:02:17Z" finished-at="2020-11-05T18:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="setUp" is-config="true" duration-ms="6749" started-at="2020-11-05T18:02:22Z" finished-at="2020-11-05T18:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verfyUserNameTextBox()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="verfyUserNameTextBox" duration-ms="2175" started-at="2020-11-05T18:02:28Z" depends-on-methods="a1_Suits.A_LoginPageE2E_Test.verfyLoginPageDisplayed" finished-at="2020-11-05T18:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyUserNameTextBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.A_LoginPageE2E_Test@7085bdee]" name="tearDown" is-config="true" duration-ms="4323" started-at="2020-11-05T18:02:31Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- a1_Suits.A_LoginPageE2E_Test -->
+      <class name="a1_Suits.B_DashBoardE2E_Test">
+        <test-method status="PASS" signature="TestStartup()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="TestStartup" is-config="true" duration-ms="25" started-at="2020-11-05T18:01:37Z" finished-at="2020-11-05T18:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStartup -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="Setup" is-config="true" duration-ms="0" started-at="2020-11-05T18:02:35Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verfyDashBoard()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="verfyDashBoard" duration-ms="1" depends-on-groups="Login" started-at="2020-11-05T18:02:35Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyDashBoard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-11-05T18:02:35Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verfyDashBoardDisplayed()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="verfyDashBoardDisplayed" duration-ms="4" depends-on-groups="Login" started-at="2020-11-05T18:02:35Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfyDashBoardDisplayed -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="Setup" is-config="true" duration-ms="0" started-at="2020-11-05T18:02:35Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-11-05T18:02:35Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TestEnd()[pri:0, instance:a1_Suits.B_DashBoardE2E_Test@73ad2d6]" name="TestEnd" is-config="true" duration-ms="1" started-at="2020-11-05T18:02:35Z" finished-at="2020-11-05T18:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEnd -->
+      </class> <!-- a1_Suits.B_DashBoardE2E_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

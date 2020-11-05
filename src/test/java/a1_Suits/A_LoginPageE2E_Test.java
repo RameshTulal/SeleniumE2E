@@ -22,28 +22,28 @@ public class A_LoginPageE2E_Test {
 		System.out.println("@BeforeMethod: Application Launched..");
 	}	
 	
-	@Test
+	@Test(groups = { "Login" })
 	public void verfyLoginPageDisplayed() {	
 		driver.manage().window().maximize();	
 		Assert.assertEquals("test", "test","Login page not found..!");		
 		System.out.println("test verfyLoginPageDisplayed executed");	
 	}
 	
-	@Test
+	@Test(dependsOnMethods = { "verfyLoginPageDisplayed" }, groups = { "Login" })
 	public void verfyUserNameTextBox() {
 		driver.manage().window().maximize();	
 		Assert.assertEquals("test", "test","UserName TextBox is not found..!");	
 		System.out.println("test verfyUserNameTextBox executed");	
 	}
 	
-	@Test
+	@Test(dependsOnMethods = { "verfyLoginPageDisplayed" }, groups = { "Login" })
 	public void verfyPasswordTextBox() {	
 		driver.manage().window().maximize();	
 		Assert.assertEquals("test", "test","Password TextBox is not found..!");	
 		System.out.println("test verfyPasswordTextBox executed");	
 	}
 	
-	@Test
+	@Test(dependsOnMethods = { "verfyLoginPageDisplayed" }, groups = { "Login" })
 	public void verfyLoginButton() {	
 		driver.manage().window().maximize();	
 		Assert.assertEquals("test", "test","Login Button is not found..!");	
@@ -54,9 +54,7 @@ public class A_LoginPageE2E_Test {
 	public void tearDown() {
 		driver.close();
 		System.out.println("@AfterMethod: Application Closed..");		
-	}
-	
-			
+	}		
 			
 	
 
