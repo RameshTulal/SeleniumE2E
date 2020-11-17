@@ -5,7 +5,7 @@
     <classes>
     <class name="a1_Suits.A_LoginPageE2E_Test"/>
       <class name="a1_Suits.B_DashBoardE2E_Test"/>
-        <class name="a1_Suits.C_LogoutE2E_Test"/>
+        <class name="a1_Suits.C_LogoutE2E_Test"/> 
      
     </classes>
   </test> <!-- Test -->

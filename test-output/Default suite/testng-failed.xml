@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="a1_Suits.B_DashBoardE2E_Test">
+      <class name="a1_Suits.A_LoginPageE2E_Test">
         <methods>
-          <include name="Setup"/>
+          <include name="verfyLoginPageDisplayed"/>
           <include name="tearDown"/>
-          <include name="TestEnd"/>
-          <include name="TestStartup"/>
-          <include name="verfyDashBoardDisplayed"/>
+          <include name="Login"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- a1_Suits.B_DashBoardE2E_Test -->
+      </class> <!-- a1_Suits.A_LoginPageE2E_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
